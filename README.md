@@ -49,9 +49,11 @@ adb shell ls -s (print size of each file)
 adb shell ls -R (list subdirectories recursively)
 
 ## File Operations
-adb push <local> <remote> (copy file/dir to device)
-adb pull <remote> <local> (copy file/dir from device)
-run-as <package> cat <file> (access the private package files)
+|               Command                       |                    Uses                    |
+|:-------------------------------------------:|:------------------------------------------:|
+| adb push {local} {remote}                   | copy file/dir to device                    |
+| adb pull {remote} {local}                   | copy file/dir from device                  |
+| run-as {package} cat {file}                 | access the private package files           |
 
 ## Device Info
 |               Command                       |                    Uses                    |
