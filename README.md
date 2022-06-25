@@ -64,7 +64,7 @@ adb shell ls -R (list subdirectories recursively)
 | adb shell netstat                               | list TCP connectivity                               |
 | adb shell pwd                                   | print current working directory                     |
 | adb shell dumpsys battery                       | battery status                                      |
-| adb shell pm list features                      | list phone features                                 |
+| adb shell pm list features                      | list device features                                |
 | adb shell service list                          | list all services                                   |
 | adb shell dumpsys activity {package}/{activity} | activity info                                       |
 | adb shell ps                                    | print process status                                |
