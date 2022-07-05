@@ -80,8 +80,8 @@ adb shell list packages -3         | list third party package names             
 adb shell list packages -s         | list only system packages                             |
 adb shell list packages -u         | list package names + uninstalled                      |
 adb shell dumpsys package packages | list info on all apps                                 |
-adb shell dump <name>              | list info on one package                              |
-adb shell path <package>           | path to the apk file                                  |
+adb shell dump {name}              | list info on one package                              |
+adb shell path {package}           | path to the apk file                                  |
 
 ## Settings Commands
 |               Command                       |                    Uses                    |
