@@ -17,9 +17,9 @@ ADB (Android Debug Bridge) is a versatile command-line tool that lets you commun
 | adb shell                                   | starts the backround terminal              |
 | exit                                        | exits the background terminal              |
 | adb help                                    | list all commands                          |
-| adb -s <deviceName> <command>               | redirect command to specific device        |
-| adb –d <command>                            | directs command to only attached USB device|
-| adb –e <command>                            | directs command to only attached emulator  |
+| adb -s {deviceName} {command}               | redirect command to specific device        |
+| adb –d {command}                            | directs command to only attached USB device|
+| adb –e {command}                            | directs command to only attached emulator  |
 
 ## Apps installation
 ```Bash
