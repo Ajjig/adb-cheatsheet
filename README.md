@@ -86,10 +86,10 @@ adb shell path {package}           | path to the apk file                       
 ## Settings Commands
 |               Command                       |                    Uses                    |
 |:-------------------------------------------:|:------------------------------------------:|
-| adb shell dumpsys battery set level <n> | change the level from 0 to 100                 |
-| adb shell dumpsys battery set status<n> | change the level to unknown, charging, discharging, not charging or full |
+| adb shell dumpsys battery set level {n} | change the level from 0 to 100                 |
+| adb shell dumpsys battery set status{n} | change the level to unknown, charging, discharging, not charging or full |
 | adb shell dumpsys battery reset         | reset the battery                              |
-| adb shell dumpsys battery set usb <n>   | change the status of USB connection. ON or OFF |
+| adb shell dumpsys battery set usb {n}   | change the status of USB connection. ON or OFF |
 | adb shell wm size WxH                   | sets the resolution to WxH                     |
 
 ## Device Commands
