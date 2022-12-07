@@ -22,7 +22,7 @@ ADB (Android Debug Bridge) is a versatile command-line tool that lets you commun
 | adb –e {command}                            | directs command to only attached emulator  |
 
 ## Apps installation
-```Bash
+```bash
 adb shell install {apk_path}  : install app (.apk)
 adb shell install {app_path}  : install app from phone path
 adb shell install -r {path}   : install app from phone path
