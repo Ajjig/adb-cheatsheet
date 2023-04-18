@@ -29,25 +29,6 @@ adb shell install -r {path}   : install app from phone path
 adb shell uninstall {app_name}: remove the app
 ```
 
-## PATHs
-```
-
-└───/data/
-└───└─── /data/<package>/databases (app databases)
-└───└─── /data/<package>/shared_prefs/ (shared preferences)
-└───└─── /app (apk installed by user)
-└─── /system/app (pre-installed APK files)
-└─── /mnt/
-└───└─── /asec (encrypted apps) (App2SD)
-└───└─── /emmc (internal SD Card)
-└───└─── /adcard (external/Internal SD Card)
-└───└─── /adcard/external_sd (external SD Card)
-```
-
-adb shell ls (list directory contents)
-adb shell ls -s (print size of each file)
-adb shell ls -R (list subdirectories recursively)
-
 ## File Operations
 |               Command                       |                    Uses                    |
 |:-------------------------------------------:|:------------------------------------------:|
@@ -111,3 +92,23 @@ adb shell path {package}           | path to the apk file                       
 |:-------------------------------------------:|:------------------------------------------:|
 | adb shell permissions groups                | list permission groups definitions         |
 | adb shell list permissions -g -r            | list permissions details                   |
+
+## PATHs
+```
+
+└───/data/
+└───└─── /data/<package>/databases (app databases)
+└───└─── /data/<package>/shared_prefs/ (shared preferences)
+└───└─── /app (apk installed by user)
+└─── /system/app (pre-installed APK files)
+└─── /mnt/
+└───└─── /asec (encrypted apps) (App2SD)
+└───└─── /emmc (internal SD Card)
+└───└─── /adcard (external/Internal SD Card)
+└───└─── /adcard/external_sd (external SD Card)
+```
+
+adb shell ls (list directory contents)
+adb shell ls -s (print size of each file)
+adb shell ls -R (list subdirectories recursively)
+
