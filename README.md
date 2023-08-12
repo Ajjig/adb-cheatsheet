@@ -77,6 +77,7 @@ adb shell path {package}           | path to the apk file                       
  
 |               Command                       |                    Uses                    |
 |:-------------------------------------------:|:------------------------------------------:|
+| abd connect HOST:PORT                       | connect to device wirelessly (same network)|
 | adb reboot-recovery                         | reboot device into recovery mode           |
 | adb reboot fastboot                         | reboot device into recovery mode           |
 | adb shell screencap -p "example.png"        | take a screenshot                          |
